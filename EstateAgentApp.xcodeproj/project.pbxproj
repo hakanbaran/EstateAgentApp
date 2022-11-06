@@ -44,7 +44,9 @@
 		D4A6610028DC274900993CE9 = {
 			isa = PBXGroup;
 			children = (
-				D4A6610B28DC274900993CE9 /* EstateAgentApp */,
+				D4F7FDEC28E740F800CA6EA9 /* Controller */,
+				D4F7FDED28E7413300CA6EA9 /* Views */,
+				D4A6610B28DC274900993CE9 /* Supporting Files */,
 				D4A6610A28DC274900993CE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,20 +59,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4A6610B28DC274900993CE9 /* EstateAgentApp */ = {
+		D4A6610B28DC274900993CE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				D4A6610C28DC274900993CE9 /* AppDelegate.swift */,
 				D4A6610E28DC274900993CE9 /* SceneDelegate.swift */,
-				D4A6612528DCA3FE00993CE9 /* EstateList.swift */,
-				D4A6612328DC293D00993CE9 /* EstateDetails.swift */,
-				D4A6611228DC274900993CE9 /* Main.storyboard */,
 				D4A6611828DC274900993CE9 /* Assets.xcassets */,
 				D4A6611A28DC274900993CE9 /* LaunchScreen.storyboard */,
 				D4A6611D28DC274900993CE9 /* Info.plist */,
 				D4A6611528DC274900993CE9 /* EstateAgentApp.xcdatamodeld */,
 			);
-			path = EstateAgentApp;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4F7FDEC28E740F800CA6EA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4A6612528DCA3FE00993CE9 /* EstateList.swift */,
+				D4A6612328DC293D00993CE9 /* EstateDetails.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D4F7FDED28E7413300CA6EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4A6611228DC274900993CE9 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
